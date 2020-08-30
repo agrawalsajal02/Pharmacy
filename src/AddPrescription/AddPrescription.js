@@ -3,7 +3,6 @@ import { StyleSheet, Text, View, TextInput, Image, Button } from "react-native";
 
 import Logo from "../../src/pages/Logo";
 
-
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
@@ -50,7 +49,6 @@ const AddPrescription = ({ navigation }) => {
         style={styles.inputbox}
         underlineColorAndroid="rgba(0,0,0,0)"
         placeholder="Medicine Strength"
-        onPress={ ()=>this.props.navigation.navigate("AddPrescription")}
         placeholderTextColor="#ffffff"
       />
 
