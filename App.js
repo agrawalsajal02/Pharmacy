@@ -10,7 +10,8 @@ import "react-native-gesture-handler";
 import Login from "./src/pages/Login";
 import Screen2 from "./src/pages/signup/Screen2"
 import Signup from "./src/pages/signup/Signup"
-
+import Home from "./src/pages/Home"
+import AddPrescription from "./src/AddPrescription/AddPrescription"
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
@@ -25,9 +26,9 @@ export default class App extends Component {
           <Stack.Navigator>
             <Stack.Screen name="login" component={Login} />
             <Stack.Screen name="signup" component={Signup} />
-            
             <Stack.Screen name="Screen2" component={Screen2} />
-          
+            <Stack.Screen name="Home" component={Home}/>
+            <Stack.Screen name="AddPrescription" component={AddPrescription}/>
           </Stack.Navigator>
         </NavigationContainer>
       </View>

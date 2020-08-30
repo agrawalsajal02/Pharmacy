@@ -89,6 +89,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     fontSize: 16,
     color: "#ffffff",
+    
     marginVertical: 10}
     ,
     signup:{
